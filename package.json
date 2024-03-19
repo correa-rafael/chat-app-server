@@ -4,8 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
-    "start": "npx dist/index.js"
+    "build": "tsc && npx dist/index.js"
   },
   "keywords": [],
   "author": "",
