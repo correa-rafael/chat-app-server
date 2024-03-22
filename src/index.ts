@@ -11,6 +11,7 @@ const io = new Server(server, {
     origin: '*',
     methods: ['GET', 'POST'],
   },
+  pingTimeout: 900000, // tempo limite de ping em milissegundos (aumente se necessário)
 });
 
 const port = process.env.PORT || 4000;
