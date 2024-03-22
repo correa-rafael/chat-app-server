@@ -12,7 +12,7 @@ ChatApp Server is the backend component of the real-time chat application develo
 - **Backend:**
   - [Node.js](https://nodejs.org/): The server-side JavaScript runtime environment for ChatApp Server, offering scalability and efficiency in handling server-side operations.
   - [Express](https://expressjs.com/): A minimalist web application framework for Node.js, Express simplifies the development of APIs and web servers, powering ChatApp Server's backend infrastructure.
-  - [Socket.IO](https://socket.io/): Facilitating real-time bidirectional event-based communication, Socket.IO enables seamless interaction between clients and servers in ChatApp Server, ensuring instant message delivery and updates.
+  - [Socket.IO](https://socket.io/): Facilitating real-time bidirectional event-based communication, Socket.IO enables seamless interaction between clients and server in ChatApp Server, ensuring instant message delivery and updates.
 
 ## Deployment
 
@@ -22,7 +22,7 @@ ChatApp Server is deployed on [Adaptable](https://chatapp-server.adaptable.app/)
 
 To run ChatApp Server locally, follow these simple steps:
 
-1. Clone the [chat-app-server](https://github.com/correa-rafael/chat-app-server) repository.
+1. Clone this repository.
 2. Navigate to the project directory.
 3. Install dependencies using `npm install`.
 4. Start the development server using `npm start`.
